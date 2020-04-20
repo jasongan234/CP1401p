@@ -1,4 +1,5 @@
 """ Get names from emails using dictionary"""
+"""https://github.com/jasongan234/CP1401p/blob/master/emails.py"""
 def main():
     email_to_code = {}
     email = input("Enter your email: ")
