@@ -1,4 +1,5 @@
-
+"""https://github.com/jasongan234/CP1401p/blob/master/hex_colours.py"""
+"""Program that uses a dictionary to get the colour and display the colour code"""
 colours_to_code = {"aliceblue": "#f0f8ff",
                    "antiquewhite": "#faebd7",
                    "beige": "#f5f5dc",
@@ -18,5 +19,5 @@ def main():
             print("Invalid Colour")
         colour_name= input("Enter colour:").lower()
 
-
-main()
+if __name__=='__main__':
+    main()
