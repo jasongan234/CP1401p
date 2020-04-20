@@ -18,5 +18,6 @@ def main():
     for sentence in word:
         print("{:{}} = {}".format(sentence, max_lenght, words_to_count[sentence]))
 
+
 if __name__== '__main__':
     main()
