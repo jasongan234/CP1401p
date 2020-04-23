@@ -39,5 +39,5 @@ numbers = [int(number) for number in almost_numbers]
 print(numbers)
 
 
-high_numbers = [number for number in numbers if number > 9]
-print(high_numbers)
+big_numbers = [number for number in numbers if number > 9]
+print(big_numbers)
