@@ -2,7 +2,7 @@
 CP1404/CP5632 Practical
 List comprehensions
 """
-
+"""https://github.com/jasongan234/CP1401p/blob/master/prac%2004/list_comprehension.py"""
 names = ["Bob", "Angel", "Jimi", "Alan", "Ada"]
 full_names = ["Bob Martin", "Angel Harlem", "Jimi Hendrix", "Alan Turing",
               "Ada Lovelace"]

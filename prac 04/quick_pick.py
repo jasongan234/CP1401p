@@ -1,4 +1,4 @@
-
+"""https://github.com/jasongan234/CP1401p/blob/master/prac%2004/quick_pick.py"""
 import random
 
 def main():
