@@ -1,4 +1,5 @@
-"""CP1404/CP5632 Practical - Car class example."""
+"""CP1404/CP5632 Practical - Car class example.
+https://github.com/jasongan234/CP1401p/blob/master/prac06/car.py"""
 
 
 class Car:
