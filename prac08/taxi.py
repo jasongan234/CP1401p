@@ -7,15 +7,16 @@ from prac08.car import Car
 
 class Taxi(Car):
     """Specialised version of a Car that includes fare costs."""
+    price_per_km = 1.23
 
-    def __init__(self, name="taxi", fuel=0, price_per_km=1.23):
+    def __init__(self, name="taxi", fuel=0):
         """Initialise a Taxi instance, based on parent class Car."""
         super().__init__(name, fuel)
-        self.price_per_km = price_per_km
         self.current_fare_distance = 0
 
     def __str__(self):
         """Return a string like a Car but with current fare distance."""
+
         return "{}, {}km on current fare, ${:.2f}/km".format(super().__str__(),
                                                              self.current_fare_distance,
                                                              self.price_per_km)
