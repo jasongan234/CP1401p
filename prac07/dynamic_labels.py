@@ -1,11 +1,10 @@
-
+"""https://github.com/jasongan234/CP1401p/blob/master/prac07/dynamic_labels.py"""
 from kivy.app import App
 from kivy.lang import Builder
-from kivy.uix.button import Label
+from kivy.uix.button import Button
 
 
 class DynamicLabels(App):
-
     def __init__(self):
         super().__init__()
         self.names = ["Jason", "Jessie", "Jackson"]
@@ -18,7 +17,7 @@ class DynamicLabels(App):
 
     def create_widgets(self):
         for names in self.names:
-            temp_button = Label(text=names, id=names)
+            temp_button = Button(text=names, id=names)
             self.root.ids.entries_box.add_widget(temp_button)
 
 

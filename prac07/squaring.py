@@ -3,6 +3,7 @@ CP1404/CP5632 Practical
 Kivy GUI program to square a number
 Lindsay Ward, IT@JCU
 Started 13/10/2015
+https://github.com/jasongan234/CP1401p/blob/master/prac07/squaring.py
 """
 
 from kivy.app import App

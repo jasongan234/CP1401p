@@ -1,3 +1,4 @@
+"""https://github.com/jasongan234/CP1401p/blob/master/prac07/box_layout_demo.py"""
 from kivy.app import App
 from kivy.lang import Builder
 
